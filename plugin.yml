@@ -1,0 +1,9 @@
+main: com.herobane.antibreak.Main
+name: AntiBreak
+version: 1.0
+author: Herobane
+commands:
+  log-enable:
+    description: enable logs
+  log-disable:
+    description: disable logs
