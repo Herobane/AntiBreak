@@ -1,12 +1,15 @@
 # AntiBreak
-### Minecraft Plugin for Bukkit 1.8.8
+### Plugin Minecraft pour Bukkit 1.8.8
 
-AntiBreak is a simple Minecraft Plugin who disallow no OP players to break some block
+AntiBreak est un plugin Minecraft qui empêche les joueurs non Administrateurs de casser des blocks
 
-OP Player can break some blocks and run these commands :
-- /log-enable    
-- /log-disable
+## Commandes :
+* /log-enable 
+* /log-disable
 
-## Commands descriptions :
-* /log-enable will enable break blocks logs
-* /log-disable will disable break blocks logs
+## Description des commandes :
+* /log-enable vas activer les logs lorsqu'un Administrateur casse un block
+* /log-disable vas désactiver les logs lorsqu'un Administrateur casse un block
+
+Lorsqu'un joueur non administrateur casse un block, Il reçoit un avertissement.
+Au bout de 5 Avertissements, le joueur est déconnecté automatiquement.
