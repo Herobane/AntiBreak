@@ -1,5 +1,6 @@
 # AntiBreak
 ### Plugin Minecraft pour Bukkit 1.8.8
+##### Dernière Version stable : 1.0
 
 AntiBreak est un plugin Minecraft qui empêche les joueurs non Administrateurs de casser des blocks
 
