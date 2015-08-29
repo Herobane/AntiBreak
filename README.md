@@ -7,5 +7,6 @@ OP Player can break some blocks and run these commands :
 - /log-enable    
 - /log-disable
 
-/log-enable will enable break blocks logs
-/log-disable will disable break blocks logs
+## Commands descriptions :
+* /log-enable will enable break blocks logs
+* /log-disable will disable break blocks logs
