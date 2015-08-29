@@ -1,5 +1,5 @@
 # AntiBreak
-### Minecraft Plugin
+### Minecraft Plugin for Bukkit 1.8.8
 
 AntiBreak is a simple Minecraft Plugin who disallow no OP players to break some block
 
