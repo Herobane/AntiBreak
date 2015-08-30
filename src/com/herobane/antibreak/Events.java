@@ -27,14 +27,17 @@ public class Events implements Listener {
 			if(logs) {
 				player.sendMessage(ChatColor.GREEN + "Vous avez casser un block de " + block.getType() + " en " + block.getX() + " " + block.getY() + " " + block.getZ());
 			}
-		} else {
+		} else if(Main.autoKick){
 			e.setCancelled(true);
 			count++;
-			player.sendMessage(ChatColor.DARK_RED + "Vous n'avez pas la permission de casser des blocks. Avertissement " + count + "/5");
-			if(count == 5) {
+			player.sendMessage(ChatColor.DARK_RED + "Vous n'avez pas la permission de casser des blocks. Avertissement " + count + "/" + Main.count);
+			if(count == Main.count) {
 				player.kickPlayer("Vous n'avez pas le droit de casser des blocks");
 				count = 0;
 			}
+		} else {
+			e.setCancelled(true);
+			player.sendMessage(ChatColor.DARK_RED + "Vous n'avez pas le droit de casser des blocks");
 		}
 	}
 
