@@ -15,5 +15,6 @@ AntiBreak est un plugin Minecraft qui empêche les joueurs non Administrateurs d
 Lorsqu'un joueur non administrateur casse un block, Il reçoit un avertissement.
 Au bout de 5 Avertissements, le joueur est déconnecté automatiquement.
 
-###### Seulement pour la version 1.1 et plus :
-Dans le fichier config.yml du plugin, vous pourrez changer le nombre d'avertissements avant la déconnexion ou la désactiver en y mettant 0.
+## Notes de publication :
+###### Version 1.1:
+* Ajout du fichier de configuration "config.yml". Vous pourrez y régler le nombre d'avertissements avant la déconnexion ou même la retirer en y mettant 0.
